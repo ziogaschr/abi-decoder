@@ -13,6 +13,12 @@ bower install abi-decoder
 const abiDecoder = require('abi-decoder'); // NodeJS
 ```
 
+You can also create new instances of the decoder if you need to:
+```js
+const anotherAbiDecoder = new abiDecoder.AbiDecoder();
+```
+
+
 # Add ABI's
 Need to pass the ABI's manually to the library in order to be able to decode params later
 ```js
